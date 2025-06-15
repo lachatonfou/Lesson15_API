@@ -17,6 +17,7 @@ public class MyHttpResponse {
         return this;
     }
 
+
     @Step("Check json value by path '{path}' and expected value '{expectedValue}'")
     public MyHttpResponse jsonValueIs(String path, String expectedValue) {
         String body = """ 
